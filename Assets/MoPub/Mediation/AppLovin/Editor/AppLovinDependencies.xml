@@ -1,0 +1,10 @@
+<!-- WARNING: File modified by script.  Keep all tags with a mopub-key attribute to a single line. -->
+<dependencies>
+ <androidPackages>
+   <androidPackage spec="com.mopub.mediation:applovin:10.3.4.0" mopub-key="ANDROID_ADAPTER_VERSION"/>
+   <androidPackage spec="com.applovin:applovin-sdk:10.3.4" mopub-key="ANDROID_SDK_VERSION"/>
+ </androidPackages>
+ <iosPods>
+   <iosPod name="MoPub-Applovin-Adapters" subspecs="['Network']" minTargetSdk="8.0" version="10.3.6.0" mopub-key="IOS_ADAPTER_VERSION"/>
+ </iosPods>
+</dependencies>

@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1253282646866856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4869201094790808}
+  - component: {fileID: 114480057265171082}
+  m_Layer: 0
+  m_Name: MoPubManagerTesting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4869201094790808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253282646866856}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4333135864710296}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114480057265171082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253282646866856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99cf74fd5c7f94769a895f510829576d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoInitializeOnStart: 1
+  itunesAppId: 
+  AdUnitId: 
+  LocationAware: 0
+  AllowLegitimateInterest: 0
+  LogLevel: 20
+  Initialized:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1679855677268928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4333135864710296}
+  - component: {fileID: 114869840714624124}
+  - component: {fileID: 114781843351734468}
+  - component: {fileID: 4719921675566217695}
+  - component: {fileID: 4719921675566217696}
+  - component: {fileID: 4719921675566217697}
+  - component: {fileID: 4719921675566217698}
+  m_Layer: 0
+  m_Name: MoPubManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4333135864710296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4869201094790808}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114869840714624124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30f64c5bd5b24380b40c623da6eea20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoInitializeOnStart: 1
+  itunesAppId: 3e872f1a258c4aee8113aa836d3971af
+  AdUnitId: 8d831fbe77c541e1979eb970cc014ff2
+  LocationAware: 0
+  AllowLegitimateInterest: 0
+  LogLevel: 30
+  Initialized:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4719921675566217695}
+        m_MethodName: LoadPluginsForAdUnits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &114781843351734468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3943a3ba43944bd4ac953da181782af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShowConsentDialog: 1
+  LocationAwarenessUsage: Your location is used to provide more targeted advertising.
+  ConsentStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  ConsentDialogLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+  ConsentDialogFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  ConsentDialogShown:
+    m_PersistentCalls:
+      m_Calls: []
+  ConsentDialogDismissed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4719921675566217695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a17d44b125e8cc4ba45a215e9a5f994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bannerAdUnits_Android:
+  - 970d65177a904a4f8aded20b7ab8d65b
+  _bannerAdUnits_IOS:
+  - 3e872f1a258c4aee8113aa836d3971af
+  bannerPosition: 1
+  bannerSize: 0
+  _interstitialAdUnits_Android:
+  - 8c344b4656434ed880dd96a62956a0c8
+  _interstitialAdUnits_IOS:
+  - 8d831fbe77c541e1979eb970cc014ff2
+  _rewardedVideoAdUnits_Android:
+  - b28c64f427d441f68ae253a4b5349f57
+  _rewardedVideoAdUnits_IOS:
+  - cbfdd52304624a03908fb7260df90cae
+--- !u!114 &4719921675566217696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f807f7721d5194ddda55870b64ca8dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions:
+  - gameId
+  gameId:
+    android: 3219370
+    ios: 4431762
+--- !u!114 &4719921675566217697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412db1475a72049e68b7117dcd808b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions:
+  - sdk_key
+  sdkKey: NlZvE6qpmSSD4GRp914VEG0hBXnJ7kHPhSOxCX7f3tDeSlLSQkU5IvLdBps7aPFWIJaiE-1eMxsK5dIwcBF2v0
+--- !u!114 &4719921675566217698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679855677268928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa95d6b9baacf41e689a6349c57bc28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions: []
+  contentUrl: 
+  testDeviceId: 
+  taggedForChildDirectedTreatment: 0
+  taggedForUnderAgeOfConsent: 0
